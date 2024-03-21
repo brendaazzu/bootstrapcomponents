@@ -1,0 +1,120 @@
+    
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* 
+{
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bolder;
+  max-width: 100%;
+}
+
+
+.display-4 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bolder;
+  font-size: 6em; 
+}
+
+.title2-container {
+  background-color: rgba(180, 161, 124, 0.177);
+  margin-bottom: -2.25rem;
+}
+
+.navbar-container {
+  position: relative;
+}
+
+.navbar-container::after {
+  content: "";
+  background: url('./bg-mikkel-kvist-15949283.jpg');
+  opacity: 0.25; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(149, 145, 89);
+  padding: 10px 15px;
+  font-size: 30px;
+  display: none;
+  border: 2.5px solid white;
+  border-radius: 20px;
+}
+
+#back-to-top:hover {
+  color: #fff;
+  background-color: rgb(225, 219, 128); 
+}
+
+::-webkit-scrollbar {
+  width: 7px; 
+  background: transparent; 
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border-radius: 100px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(172, 172, 172, 0.8); 
+  border-radius: 100px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(172, 172, 172, 0.8);
+}
+
+.form-control:focus {
+  border-color: gray;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: rgb(149, 145, 89);
+  border: 1px solid white;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: rgb(225, 219, 128);
+  border: 1px solid rgb(225, 219, 128);
+  color: black;
+}
+
+.btn-outline-secondary {
+  background-color: rgb(225, 219, 128);
+  border: 1px solid white;
+  color: black;
+}
+
+.btn-outline-secondary:hover {
+  background-color: rgb(149, 145, 89);
+  border: 1px solid  rgb(149, 145, 89);
+  color: black;
+}
+
+h1 {
+  padding: 5rem;
+  font-size: 20rem;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bolder;
+}
+
+.form-control:hover {
+  background-color: white;
+}
+
+.carousel-item img {
+  height: 700px; 
+  object-fit: cover;
+}
